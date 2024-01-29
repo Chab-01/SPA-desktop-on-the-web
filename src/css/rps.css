@@ -1,0 +1,31 @@
+
+.rps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  height: 100%; 
+}
+
+.rps-container img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.rps-container img:hover {
+  transform: scale(1.15);
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+}
+
+.game-result {
+  padding-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
